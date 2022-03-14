@@ -74,6 +74,7 @@ namespace Converter
             Console.WriteLine("Výsledek: " + Converter.BinToOct(Console.ReadLine()));
             Console.Write("Zadejte číslo v oktanové soustavě pro převod do dvojkové: ");
             Console.WriteLine("Výsledek: " + Converter.OctToBin(Convert.ToInt32(Console.ReadLine())));
+            Console.ReadKey();
         }
     }
 }
